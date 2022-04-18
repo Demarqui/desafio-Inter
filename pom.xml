@@ -13,7 +13,7 @@
 	<artifactId>myteste2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>myteste2</name>
-	<description>My first project for Spring Boot</description>
+	<description>Desafio Inter</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
