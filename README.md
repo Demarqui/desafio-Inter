@@ -16,6 +16,9 @@ A API fará uma lista de possíveis investimentos para o cliente, e escolherá a
 ## Modelo conceitual
 ![Modelo Conceitual](https://imgur.com/sFFOABw.png)
 
+## Exemplo dos endpoints disponibilizados a partir do Swagger
+![Modelo Conceitual](https://imgur.com/xA0PNPt.png)
+
 # Tecnologias utilizadas
 ## Back end
 - Java
@@ -31,18 +34,18 @@ Pré-requisitos: Java 8 +
 
 ```bash
 # clonar repositório
-git clone https://github.com
+git clone https://github.com/Demarqui/desafio-Inter.git
 
-# entrar na pasta do projeto back end
-cd backend
+# salvar o projeto em sua workspace e abri-lo com sua IDE
 
-# executar o projeto
-./mvnw spring-boot:run
-```
+# executar o projeto 
+com o botão direito na classe DesafioInterApplication do pacote br.com.desafiointer, clique na opção Run Ass > Spring Boot App
+
+# executar as operações do projeto
+é possível efetuar as requisições dos endpoints do projeto através do swagger, que, através do próprio Spring framework, documentou todos os endpoints, onde estes estão disponíveis no link (http://localhost:8080/swagger-ui/index.html), que funcionará assim que o projeto for executado. Exemplo dos endpoints demonstrado acima.
 
 # Autor
 
 Douglas Louvison Demarqui
 
 https://www.linkedin.com/in/douglasdemarqui/
-
